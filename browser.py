@@ -22,8 +22,9 @@ elif re.search("Firefox", allArgs):
 
 print "Chrome:", info[0] + "<br/>"
 print "Safari:", info[1] + "<br/>"
-print "Firefox:", info[2] + "<br/>"
-print "Internet Explorer:", info[3] + "<br/>"
+print "Internet Explorer:", info[2] + "<br/>"
+print "Firefox:", info[3] + "<br/>"
+
 
 f = open('brow.txt','w')
 f.write(','.join(info))
