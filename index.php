@@ -4,8 +4,10 @@
   </head>
   <body>
     <t>Number of visitors: </t>
-    <?php system ('python getcount.py'); ?>
-    <?php system ('python increment.py'); ?>
+    <?php 
+       system ('python getcount.py');
+       system ('python increment.py'); 
+    ?>
     <t><br/><br/>Users by browser:<br/></t>
     <div style="margin-left:15px;">
     <?php 
