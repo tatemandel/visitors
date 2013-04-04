@@ -1,0 +1,25 @@
+Tayler Mandel
+CIS 191 Project 3
+tmandel@sas.upenn.edu
+
+SCRIPTS:
+
+index.php:
+ - The main php file that contains html for the site with calls to python scripts to display the data.
+
+counter.txt:
+ - A .txt file with the current visitor count on the first line.
+
+getcount.py:
+ - A script that gets the visitor count from counter.txt.
+
+increment.py:
+ - A script that reads the visitor count from counter.txt and replaces it with an incremented value.
+
+brow.txt:
+ - A .txt file with the browser information separated by commas.
+
+browser.py:
+ - A script that displays and updates the values in brow.txt.
+
+
